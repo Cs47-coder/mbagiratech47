@@ -59,7 +59,7 @@ const Contact = () => {
 
     try {
       await emailjs.send(
-        'service_qc1p2pt',
+        'service_8tgy9fd',
         'template_53hpq6q',
         templateParams,
         'mbmLoBDpEaQrfihRS'
