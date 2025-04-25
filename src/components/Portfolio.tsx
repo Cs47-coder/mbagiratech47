@@ -163,7 +163,7 @@ const Portfolio = () => {
             </p>
             <div className="flex gap-4">
               <Link
-                to="https://github.com"
+                to="https://github.com/Cs47-coder"
                 className="px-6 py-3 bg-slate-800 hover:bg-slate-900 text-white rounded-md transition-colors flex items-center"
               >
                 <Github size={18} className="mr-2" />

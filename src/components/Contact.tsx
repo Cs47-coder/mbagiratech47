@@ -89,7 +89,7 @@ const Contact = () => {
                   value={formData.name}
                   onChange={handleChange}
                   className="w-full px-4 py-3 rounded-lg border border-slate-300 focus:ring-2 focus:ring-blue-500 focus:border-blue-500 outline-none transition-all"
-                  placeholder="Roselein Samwel"
+                  placeholder="Rlein Samwel"
                   required
                 />
               </div>
@@ -193,7 +193,7 @@ const Contact = () => {
                   icon={<MapPin size={20} />}
                   title="Location"
                   details={['Tanzania, East Africa']}
-                  link="/location"
+                  link="https://www.openstreetmap.org/"
                 />
                 
                 <ContactInfoItem 
