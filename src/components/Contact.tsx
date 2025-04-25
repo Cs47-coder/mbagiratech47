@@ -61,12 +61,7 @@ const Contact = () => {
       await emailjs.send(
         'service_qc1p2pt',
         'template_53hpq6q',
-        {
-          from_name: formData.name,
-          from_email: formData.email,
-          subject: formData.subject,
-          message: formData.message,
-        },
+        templateParams,
         'mbmLoBDpEaQrfihRS'
       );
 
